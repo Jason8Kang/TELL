@@ -6,7 +6,7 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
     <br>
 </p>
 
-## 25 TMWP template of main question types
+## 25 TMWP templates of main question types
 
 | Type | Template                                                                                                                                                                               |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,3 +36,4 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
 | 24   | What is the mode of the numbers?                                                                                                                                                       |
 | 25   | What is the average of the numbers?                                                                                                                                                    |
 
+The code is in template folder.

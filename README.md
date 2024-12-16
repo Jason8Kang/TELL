@@ -6,5 +6,5 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
     <br>
 </p>
 
-# 25 TMWP template of main question types
+## 25 TMWP template of main question types
 see template folder

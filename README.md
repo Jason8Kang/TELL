@@ -36,4 +36,4 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
 | 24   | What is the mode of the numbers?                                                                                                                                                       |
 | 25   | What is the average of the numbers?                                                                                                                                                    |
 
-The code is in template folder.
+The code is in Template folder.

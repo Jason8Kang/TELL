@@ -1,13 +1,13 @@
 # TELL
-This is official repo for the paper Template-Driven LLM-Paraphrased Framework for Tabular Math Word Problem Generation. This is overall framework.
-Paper link: arXiv
-data link: [TABMWP-TELL]!(https://github.com/Jason8Kang/TELL/blob/main/Data/TABMWP-TELL.jsonl)
+This is official repo for the paper Template-Driven LLM-Paraphrased Framework for Tabular Math Word Problem Generation. 
+
+ - Paper link: arXiv
+ - data link: [TABMWP-TELL](https://github.com/Jason8Kang/TELL/blob/main/Data/TABMWP-TELL.jsonl)
 
 ## Introduction
 The rise of large language models (LLMs) has achieved unprecedented success in a variety of reasoning tasks. However, solving math word problems (MWPs) is still challenging, which is tasked as answering math questions based on heterogeneous tabular and textual data with mathematical reasoning ability. For various complex MWPs, training models usually require a large amount of data; nevertheless, the collection and annotation of MWPs are usually costly and time-consuming, resulting in the scarcity of public tabular MWP datasets.
 
-## Framework03.png
-
+## Overall Framework
 <p align="center">
     <img src="./pictures/Framework03.png" width="800">
     <br>
@@ -43,16 +43,15 @@ The rise of large language models (LLMs) has achieved unprecedented success in 
 | 24   | What is the mode of the numbers?                                                                                               |
 | 25   | What is the average of the numbers?                                                                                            |
 
-
 The code for 25 problem templates is in Template folder. We use  Yi (Yi-Large-Turbo) to paraphrase the problems. The finally generated TABMWP-TELL is in Data folder.
 
 ## Experimental Setup
- In main experiments, we fine-tune three commonly used LLMs, including Mistral-7B, Qwen 2-7B, and Llama3-8B (Dubey et al. 2024) with the training set of TabMWP and TabMWP-TeLL, and the evaluations are conducted on the TabMWP test set. During the fine-tuning process, we set the number of epochs as 2, the batch size per device as 12, the gradient accumulation steps as 4, and the learning rate as 2e − 4. To achieve parameter-efficient fine-tuning, we adopt the QLoRA strategy (Dettmers et al. 2023) with XTuner2
+ In main experiments, we fine-tune three commonly used LLMs, including Mistral-7B, Qwen 2-7B, and Llama3-8B (Dubey et al. 2024) with the training set of TabMWP and TabMWP-TeLL, and the evaluations are conducted on the TabMWP test set. During the fine-tuning process, we set the number of epochs as 2, the batch size per device as 12, the gradient accumulation steps as 4, and the learning rate as 2e − 4. To achieve parameter-efficient fine-tuning, we adopt the QLoRA strategy with [XTuner](https://github.com/InternLM/xtuner/blob/main/README_zh-CN.md)
 . All experiments are conducted on 8 NVIDIA GeForce RTX 3090 graphic cards.
 
 
 
-
+## Citation
 
 
 

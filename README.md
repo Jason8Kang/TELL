@@ -37,4 +37,4 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
 | 25   | What is the average of the numbers?                                                                                            |
 
 
-The code is in Template folder.
+The code for 25 problem templates is in Template folder. the finally generated data in Data folder

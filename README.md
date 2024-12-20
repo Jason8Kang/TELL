@@ -5,7 +5,7 @@ This is official repo for the paper Template-Driven LLM-Paraphrased Framework fo
  - data link: [TABMWP-TELL](https://github.com/Jason8Kang/TELL/blob/main/Data/TABMWP-TELL.jsonl)
 
 ## Introduction
-The rise of large language models (LLMs) has achieved unprecedented success in a variety of reasoning tasks. However, solving math word problems (MWPs) is still challenging, which is tasked as answering math questions based on heterogeneous tabular and textual data with mathematical reasoning ability. For various complex MWPs, training models usually require a large amount of data; nevertheless, the collection and annotation of MWPs are usually costly and time-consuming, resulting in the scarcity of public tabular MWP datasets.
+The rise of large language models (LLMs) has achieved unprecedented success in a variety of reasoning tasks. However, solving math word problems (MWPs) is still challenging, which is tasked as answering math questions based on heterogeneous tabular and textual data with mathematical reasoning ability. For various complex MWPs, training models usually require a large amount of data; nevertheless, the collection and annotation of MWPs are usually costly and time-consuming, resulting in the scarcity of public tabular MWP datasets.
 
 ## Overall Framework
 <p align="center">

@@ -1,7 +1,7 @@
 # TELL
 This is official repo for the paper Template-Driven LLM-Paraphrased Framework for Tabular Math Word Problem Generation. 
 
- - Paper link: arXiv
+ - Paper link: [arXiv](https://arxiv.org/abs/2412.15594)
  - data link: [TABMWP-TELL](https://github.com/Jason8Kang/TELL/blob/main/Data/TABMWP-TELL.jsonl)
 
 ## Introduction

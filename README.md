@@ -52,7 +52,18 @@ The code for 25 problem templates is in Template folder. We use  Yi (Yi-Large-Tu
 
 
 ## Citation
+```
+@misc{kang2024templatedrivenllmparaphrasedframeworktabular,
+      title={Template-Driven LLM-Paraphrased Framework for Tabular Math Word Problem Generation}, 
+      author={Xiaoqiang Kang and Zimu Wang and Xiaobo Jin and Wei Wang and Kaizhu Huang and Qiufeng Wang},
+      year={2024},
+      eprint={2412.15594},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.15594}, 
+}
 
+```
 
 
 
